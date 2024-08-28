@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false
         }
     }, {
-      tableName: 'nivel',
-      timestamps: true,
+    tableName: 'nivel',
+    timestamps: true,
     });
 };
