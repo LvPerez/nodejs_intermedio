@@ -1,4 +1,4 @@
-[8:05 p. m., 27/8/2024] Juan Pablo Profesor: require('dotenv').config();
+
 
 const { Sequelize,DataTypes } = require('sequelize');
 const jugadorModelo = require('../modelos/jugador');
@@ -22,9 +22,6 @@ sequelize.authenticate()
   .then(() => console.log('Conectado a la base de datos.'))
   .catch(err => console.error('No se pudo conectar a la base de datos:', err));
 
-seq…
-[8:27 p. m., 27/8/2024] Juan Pablo Profesor: Controladores/jugadorControlador.js
-[8:27 p. m., 27/8/2024] Juan Pablo Profesor: const { Jugador } = require('../baseDatos');
 
 const registrarJugador = async (req, res) => {
   try {
